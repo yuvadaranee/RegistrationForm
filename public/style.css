@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    background-image: url('https://img.freepik.com/free-photo/organized-desk-with-copy-space_23-2148219270.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    padding-left: 0%;
+  }
+  .form{
+    width: 40%;
+    height: auto;
+    padding: 8px;
+    background-color: rgba(136, 165, 191, 0.273);
+    align-content:center;
+    margin-left: 10%;
+    align-items: center;
+    border-radius: 4rem;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label{
+    margin-left: 12%;
+    display: block;
+    margin-bottom: 1px;
+  }
+
+  input{
+    margin-left: 12%;
+    width: 70%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  select{
+    width: 70%;
+    padding: 5px;
+    border-radius: 1rem;
+    margin-bottom: 10px;
+    margin-left: 12%;
+  }
+
+  button {
+    width:70%;
+    margin-top: 15px;
+    padding: 8px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 12%;
+  }
+  
+  #dropdown {
+    background-color: white;
+    width: 65%;
+    max-height: 120px;
+    overflow-y:scroll;
+    scrollbar-width: 0.1px;
+    font-size: 16px;
+    padding: 10px;
+    margin-left: 12%;
+}
+
+.dropdown-item {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2px;
+    z-index: 999;
+}
+.dropdown-item:hover {
+    background-color: rgba(0, 204, 255, 0.459);
+}
+
+#input {
+    width: 100%;
+    margin: left 0px; ;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+#toggle {
+    width: 70%;
+    margin-top: 1px;
+    margin-bottom: 5px;
+    margin-left: 12%;
+}
+
+#register{
+  width: 50%;
+  margin-left:23% ;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-size: 16px;
+  border-radius: 2rem;
+}
